@@ -16,7 +16,7 @@ var Resultado = false;
 
         var value = $(this).val(); //Atribuir em variável para não perder o valor.
         var html = $("#Visor").html(); //Atribuir em variável para não perder o valor.
-        if (value == "CE") {
+        if (value == "CE" || value == "C") {
             $("#Visor").html("&nbsp;");
             resultadoParcial = 0;
         }
