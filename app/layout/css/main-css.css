@@ -1,0 +1,132 @@
+#btn-equals{
+    background-color: orange;
+    border: none;
+
+    width: 49%;
+}
+
+#Historico{
+    color: #AAAAAA;
+}
+
+#Visor{
+    padding: 10px;;
+    color:dimgray;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+ #div-calculator{
+    background-color: #333a40;
+    border: solid 1px #aaaaaa;
+    border-radius: 20px;
+    width: 40%;
+
+}
+
+#div-buttons{
+    padding: 0;
+    /* background-color: red;; */
+}
+/*
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } */
+
+.div-row{
+    /* background-color: blue; */
+    /* align-items: center; */
+    /* display: block; */
+    width: auto;
+
+    /* width: 50%; */
+}
+.btn-number{
+    border-radius: 20px;
+    height: 60px;
+    width: 15%;
+    text-align: center;
+    padding: 0;
+    margin: 0.4%;
+    font-size: 150%;
+    border: solid 1px #AAAAAA;
+    color: white;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.btn-number:hover{
+   
+    color: #dddddd;
+    background-color: #404950 !important;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.btn-operator{
+    border-radius: 20px;
+    height: 60px;
+    width: 15%;
+    text-align: center;
+    padding: 0;
+    margin: 0.4%;
+    font-size: 150%;
+    border: solid 1px #AAAAAA;
+    color: white;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.btn-operator:hover{
+
+    color: #dddddd;
+    background-color: #404950 !important;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.operator-plus{
+    height: 150px;
+    width: 50px;
+    background-color: yellow;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+}
+
+.btn-group-row{
+
+    float: left;
+}
+
+.texto-piscante{
+    animation: pisca 1s infinite;
+    /* color: orange; */
+
+
+}
+
+@keyframes pisca {
+    from {color: orange}
+    to {color: orange}
+}
+/* @keyframes go-back {
+    0% {
+        transform: translateX(100px);
+    }
+} */
+    
+
+
+
+

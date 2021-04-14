@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CalculatorJS</title>
+    <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/layout/css/main-css.css">
+    <script src="https://kit.fontawesome.com/8550e0fa2e.js" crossorigin="anonymous"></script>
+    <script src="resources/jquery/jquery-3.6.0.min.js"></script>
+    <script src="app/layout/js/main-js.js"></script>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CalculatorJS</a>
+        </div>
+    </nav>
+    <div class="container">
+            <br>
+            <div id="div-calculator" class="container calculator">
+                <br>
+                <div class="container div-row">
+                    <h5 id="Historico">&nbsp;</h5>
+                    <h1 id="Visor">&nbsp;</h1>
+                </div>
+                <div id="div-buttons" class="container">
+                    <div class="container div-row">
+                        <button id="btn1" type="button" class="btn btn-number bg-dark">1</button>
+                        <button type="button" class="btn btn-number bg-dark">2</button>
+                        <button type="button" class="btn btn-number bg-dark">3</button>
+                        <button type="button" class="btn-operator btn bg-dark" value="+"><i class="fas fa-plus"></i></button>
+                        <button type="button" class="btn-operator btn bg-dark" value="*"><i class="fas fa-times"></i></button>
+                        <button type="button" class="btn-operator btn bg-dark" value="C"><b>C</b></button>
+                    </div>
+                    <div class="container div-row">
+                        <button type="button" class="btn btn-number bg-dark">4</button>
+                        <button type="button" class="btn btn-number bg-dark">5</button>
+                        <button type="button" class="btn btn-number bg-dark">6</button>
+                        <button type="button" class="btn-operator btn bg-dark" value="-"><i class="fas fa-minus"></i></button>
+                        <button type="button" class="btn-operator btn bg-dark" value="/"><i class="fas fa-divide"></i></button>
+                        <button type="button" class="btn-operator btn bg-dark" value="CE"><b>CE</b></button>
+
+                    </div>
+                    <div class="container div-row">
+                        <button type="button" class="btn btn-number bg-dark">7</button>
+                        <button type="button" class="btn btn-number bg-dark">8</button>
+                        <button type="button" class="btn btn-number bg-dark">9</button>
+                        <button id="btn-equals" type="button" class="btn-number btn" value="="><i class="fas fa-equals" style="color: white;"></i></button>
+                    </div>
+                </div>
+                <br>
+                
+            
+                <!-- <div class="btn-group btn-group-row" role="group" aria-label="Basic example">
+                    <button type="button" class="btn-number btn btn-primary" onClick="setValue(1)"><h1>1</h1></button>
+                    <button type="button" class="btn-number btn btn-primary" onClick="setValue(2)"><h1>2</h1></button>
+                    <button type="button" class="btn-number btn btn-primary" onClick="setValue(3)"><h1>3</h1></button>
+                    <button type="button" class="btn-operator btn" onClick="setValue('+')"><h1><i class="fas fa-plus"></i></h1></button>
+                    <button type="button" class="btn-operator btn" onClick="setValue('/')"><h1><i class="fas fa-divide"></i></h1></button>
+                </div>
+                <br>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn-number btn btn-primary" onClick="setValue(4)"><h1>4</h1></button>
+                    <button type="button" class="btn-number btn btn-primary" onClick="setValue(5)"><h1>5</h1></button>
+                    <button type="button" class="btn-number btn btn-primary" onClick="setValue(6)"><h1>6</h1></button>
+                    <button type="button" class="btn-operator btn btn-dark" onClick="setValue('-')"><h1><i class="fas fa-minus"></i></h1></button>
+                    <button type="button" class="btn-operator btn btn-dark" onClick="setValue('%')"><h1><i class="fas fa-percentage"></i></h1></button>
+                </div>
+                <br>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn-number btn btn-primary" onClick="setValue(7)"><h1>7</h1></button>
+                    <button type="button" class="btn-number btn btn-primary" onClick="setValue(8)"><h1>8</h1></button>
+                    <button type="button" class="btn-number btn btn-primary" onClick="setValue(9)"><h1>9</h1></button>
+                    <button type="button" class="btn-operator btn btn-dark" onClick="setValue('x')"><h1><i class="fas fa-times"></i></h1></button>
+                    <button id="btn-equals" type="button" class="btn-operator btn" onClick="setValue('=')"><h1><i class="fas fa-equals"></i></h1></button>
+                </div>
+                <br><br>-->
+            </div>
+    </div>
+    <!-- <script href="resources/bootstrap/js/bootstrap.min.js"></script> -->
+</body>
+</html>
